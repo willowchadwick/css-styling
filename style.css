@@ -4,15 +4,21 @@ article {
 }
 
 section.content p.normal {
-    
+    background-color: rgba(40,40,40,0.2);
 }
 
 p.red {
-    
+    background-color: rgba(140,20,20,0.3);
 }
 
 p#green {
+    background-color: rgba(20,140,20,0.3);
     
+}
+
+li.subspan>span.bordered {
+    padding: 5px;
+    border: 2px gray dotted;
 }
 
 /* what else can you do?  */

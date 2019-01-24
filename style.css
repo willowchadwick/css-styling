@@ -22,3 +22,18 @@ li.subspan>span.bordered {
 }
 
 /* what else can you do?  */
+ul.mainlist li {
+    font-style: italic;
+}
+
+li#special {font-family: 'Droid Sans'; font-weight:bold; color:purple; }
+
+div.child-and-grand p {border: 3px orange double; background-color:rgba(250,230,130,0.4) }
+
+div.child-and-grand>p {background-color:rgba(200,200,60, 0.4);}
+
+p.normal:nth-of-type(2)::after {
+    content: ' -    Mwahahahahhaha';
+    background-color: purple;
+             
+}

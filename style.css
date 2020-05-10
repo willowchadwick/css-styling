@@ -7,12 +7,23 @@ section.content p.normal {
     
 }
 
-p.red {
-    
+p.red, li.red {
+color: red;
 }
 
 p#green {
-    
+    color: green;
 }
 
+li#special {
+    font-style: italic;
+    font-size: 1.2em;
+    font-weight:  bold;
+
+}
+
+li > span {
+    border: 2px solid magenta;
+
+}
 /* what else can you do?  */

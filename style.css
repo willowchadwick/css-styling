@@ -18,7 +18,7 @@ p#green {
     
 }
 
-li class.red {
+ul id.mainlist  {
     color:rgb(240, 40, 80);
 
 }

@@ -8,10 +8,12 @@ section.content p.normal {
 }
 
 p.red {
+    color:rgb(240, 40, 80);
     
 }
 
 p#green {
+    color:rgb(50, 200,50);
     
 }
 

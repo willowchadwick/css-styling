@@ -18,9 +18,13 @@ p#green {
     
 }
 
-ul.mainlist  {
+ul.red  {
     color:rgb(240, 40, 80);
 
+}
+
+li.special {
+    color:rgb(250, 74, 132)
 }
 
 /* what else can you do?  */

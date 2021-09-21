@@ -22,6 +22,9 @@ p#green {
 ul#mainlist {
     color: rgb(255,255,255);
     background-color: rgb(0,0,0);
+    height: 100;
+    width: fit-content;
+    text-align: center;
 }
 
 li.red  {
@@ -29,7 +32,11 @@ li.red  {
 }
 
 li#special {
-    color:rgb(8, 197, 197);
+    color:rgb(35, 192, 192);
+}
+
+li#bordered {
+    border: rgb(50, 200,50);
 }
 
 div.child-and-grand {
